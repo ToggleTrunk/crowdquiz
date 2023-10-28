@@ -5,6 +5,9 @@ edition.workspace = true
 readme.workspace = true
 license.workspace = true
 
+[dependencies]
+"crowdquiz-common".workspace = true
+
 [dependencies."crowdquiz-client"]
 path = "../client"
 artifact = "cdylib"
