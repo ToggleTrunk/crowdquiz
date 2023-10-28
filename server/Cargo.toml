@@ -4,3 +4,8 @@ version.workspace = true
 edition.workspace = true
 readme.workspace = true
 license.workspace = true
+
+[dependencies."crowdquiz-client"]
+path = "../client"
+artifact = "cdylib"
+target = "wasm32-unknown-unknown"

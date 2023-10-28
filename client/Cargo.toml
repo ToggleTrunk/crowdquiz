@@ -1,0 +1,11 @@
+[package]
+name = "crowdquiz-client"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = [
+	"cdylib",
+]
