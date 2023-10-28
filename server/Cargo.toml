@@ -1,0 +1,6 @@
+[package]
+name = "crowdquiz"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+license.workspace = true

@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+	"server",
+]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+readme = "readme.md"
+license = "MPL-2.0"
